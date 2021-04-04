@@ -119,3 +119,27 @@ ul li a:hover {
     animation-duration: 5s;
     animation-delay: 1s;
 }
+
+
+.middle-container{
+    background-color: white;
+    text-align: center;
+}
+
+.profile{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.skills{
+    width:50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.midlogo{
+    width: 150px;
+    height: 250px;
+    padding-top: 0px;
+}
