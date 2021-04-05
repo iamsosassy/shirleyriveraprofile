@@ -203,6 +203,10 @@ h1 {
     text-align: center;
 }
 
+.skills-container{
+    background-color: white;
+    text-align: center;
+}
 .profile {
     width: 50%;
     margin-left: 25%;
@@ -389,6 +393,10 @@ h3 {
     background-image: -0-linear-gradient(top, #11cdd4, #11999e);
     background-image: linear-gradient(to bottom, #11cdd4, #11999e);
     text-decoration: none;
+}
+
+.clear {
+    clear: both;
 }
 
 #contact {
