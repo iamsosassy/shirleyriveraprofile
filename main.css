@@ -217,19 +217,31 @@ ul li a:hover {
     animation-delay: 3s;
 }
 
-@keyframes flying{
-    0%{
+@keyframes flying {
+    0% {
         bottom: -100px;
         transform: translateX(0);
     }
-    50%{
+    50% {
         bottom: -100px;
         transform: translateX(100px);
     }
-    100%{
+    100% {
         bottom: 1480px;
         transform: translateX(-200px);
     }
+}
+
+#top-cloud {
+    position: absolute;
+    right: 14%;
+    top: 5%;
+    z-index: 9;
+}
+
+#bottom-cloud {
+    position: absolute;
+    left: 5%;
 }
 
 .middle-container {
@@ -255,8 +267,131 @@ ul li a:hover {
     padding-top: 0px;
 }
 
+#foot {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+    background-color: #1b262c;
+    width: 100%;
+    height: 220px;
+}
+
 .f-link {
     color: black;
     text-decoration: none;
-    
+}
+
+footlogo {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 15%;
+    top: 33%;
+}
+
+.link {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 41%;
+}
+
+.footer-link {
+    color: #11999e;
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 15px 12px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+.footer-social-icons ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.footer-social-icons ul li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+.footer-social-icons ul li a {
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: -5s;
+}
+
+.footer-social-icons ul li a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #11999e;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+.footer-social-icons ul li a:hover:before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #11999e;
+}
+
+.footer-social-icons ul li a:hover {
+    color: #11999e;
+    box-shadow: 0 0 5px #11999e;
+    text-shadow: 0 0 5px #11999e;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 1%;
+    left: 41%;
+    text-align: center;
+    color: #EAF6F6;
+    font-size: 0.85rem;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -0-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: 'Montserrat' sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -0-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    text-decoration: none;
 }
