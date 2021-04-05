@@ -272,17 +272,12 @@ ul li a:hover {
     bottom: 0;
     overflow: hidden;
     z-index: -1;
-    background-color: #1b262c;
+    background-color: #57798b;
     width: 100%;
     height: 220px;
 }
 
-.f-link {
-    color: black;
-    text-decoration: none;
-}
-
-footlogo {
+.footlogo {
     width: 85px;
     height: 85px;
     position: absolute;
@@ -394,4 +389,11 @@ footlogo {
     background-image: -0-linear-gradient(top, #11cdd4, #11999e);
     background-image: linear-gradient(to bottom, #11cdd4, #11999e);
     text-decoration: none;
+    
+}
+
+#contact {
+    margin-bottom: 100%;
+    width: 90%;
+    margin-left: 5%;
 }
