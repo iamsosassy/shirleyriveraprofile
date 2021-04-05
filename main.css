@@ -47,99 +47,86 @@ ul {
 ul li {
     display: inline-block;
     padding: 0px 15px;
+    float: right;
 }
-
-ul li a {
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Baloo Chettan 2', cursive;
-    color: #0f4c75;
-}
-
-ul li a.active {
-    color: black;
-}
-
-ul li a:hover {
-    color: #1b262c;
-}
-
-.top-container {
-    width: 100%;
-    height: 650px;
-    background-color: linen;
-    margin: 0;
-    position: relative;
-    overflow: hidden;
-    padding-top: 20px;
-}
-
-.top-container:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 75px;
-    z-index: 1000;
-    background: linear-gradient(transparent, #fff);
-}
-
-.bubbles {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: 0;
-    background: transparent;
-}
-
-.bubble {
-    position: absolute;
-    bottom: 0;
-    background: radial-gradient(#fff, #666666);
-    border-radius: 50%;
-    opacity: 0.4;
-    animation: flying 10s infinite ease-in;
-}
-
-.bubble:nth-child(1) {
-    width: 40px;
-    height: 40px;
-    left: 10%;
-    animation-duration: 8s;
-}
-
-.bubble:nth-child(2) {
-    width: 20px;
-    height: 20px;
-    left: 20%;
-    animation-duration: 5s;
-    animation-delay: 1s;
-}
-
-
-.middle-container{
-    background-color: white;
-    text-align: center;
-}
-
-.profile{
-    width: 50%;
-    margin-left: 25%;
-    margin-bottom: 5%;
-}
-
-.skills{
-    width:50%;
-    margin-left: 25%;
-    text-align: center;
-}
-
-.midlogo{
-    width: 150px;
-    height: 250px;
-    padding-top: 0px;
-}
+    ul li a {
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Baloo Chettan 2', cursive;
+        color: #0f4c75;
+    }
+    ul li a.active {
+        color: black;
+    }
+    ul li a:hover {
+        color: #1b262c;
+    }
+    .top-container {
+        width: 100%;
+        height: 650px;
+        background-color: linen;
+        margin: 0;
+        position: relative;
+        overflow: hidden;
+        padding-top: 20px;
+    }
+    .top-container:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 75px;
+        z-index: 1000;
+        background: linear-gradient(transparent, #fff);
+    }
+    .bubbles {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: 0;
+        background: transparent;
+    }
+    .bubble {
+        position: absolute;
+        bottom: 0;
+        background: radial-gradient(#fff, #666666);
+        border-radius: 50%;
+        opacity: 0.4;
+        animation: flying 10s infinite ease-in;
+    }
+    .bubble:nth-child(1) {
+        width: 40px;
+        height: 40px;
+        left: 10%;
+        animation-duration: 8s;
+    }
+    .bubble:nth-child(2) {
+        width: 20px;
+        height: 20px;
+        left: 20%;
+        animation-duration: 5s;
+        animation-delay: 1s;
+    }
+    .middle-container {
+        background-color: white;
+        text-align: center;
+    }
+    .profile {
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+    .skills {
+        width: 50%;
+        margin-left: 25%;
+        text-align: center;
+    }
+    .midlogo {
+        width: 150px;
+        height: 250px;
+        padding-top: 0px;
+    }
